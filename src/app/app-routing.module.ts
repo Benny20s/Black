@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'sesion',
     loadChildren: () => import('./pages/sesion/sesion.module').then( m => m.SesionPageModule)
   },
+  {
+    path: 'pagina1',
+    loadChildren: () => import('./pages/pagina1/pagina1.module').then( m => m.Pagina1PageModule)
+  },
   
 ];
 
